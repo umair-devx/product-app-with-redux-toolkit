@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Login from '../../pages/Login/Login'
-import Register from '../../pages/Register/Register'
-import Products from '../../pages/Products/Products'
-import Cart from '../../pages/Cart/Cart'
-import ResponsiveAppBar from '../../Coponents/Navbar'
+import Login from '../pages/Login/Login'
+import Register from '../pages/Register/Register'
+import Products from '../pages/Products/Products'
+import Cart from '../pages/Cart/Cart'
+import ResponsiveAppBar from '../Coponents/Navbar'
 
 const Routeconfig = () => {
   return (

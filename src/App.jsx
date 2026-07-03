@@ -1,5 +1,5 @@
 import React from 'react'
-import Routeconfig from './config/reduxconfig/Routeconfig'
+import Routeconfig from './config/Routeconfig'
 
 const App = () => {
   return (
