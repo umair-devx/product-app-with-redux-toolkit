@@ -15,6 +15,7 @@ import {
   addQuantity,
   removeQuantity,
   remove,
+  clearCart,
 } from "../../config/reduxconfig/reducer/cartSlice";
 
 const Cart = () => {
@@ -113,6 +114,9 @@ const Cart = () => {
         <Typography variant="h5" fontWeight="bold">
           Total Amount: ${total.toFixed(2)}
         </Typography>
+        <button onClick={()=>{if(window.confirm("Are You shure to clear the cart")){
+          dispatch(clearCart())
+        }}}>Clear Cart</button>
       </Paper>
     </Box>
   );
